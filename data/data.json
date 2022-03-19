@@ -1,0 +1,66 @@
+{
+    "experience": [
+        {
+            "title": "Senior Solutions Architect",
+            "company": "Snowflake",
+            "startDate": "2021-12",
+            "endDate": null
+        },
+        {
+            "title": "Principal Database Engineer",
+            "company": "Brighly",
+            "startDate": "2021-12",
+            "endDate": "2020-05"
+        },
+        {
+            "title": "Senior DBA/DevOps Lead",
+            "company": "Lytho",
+            "startDate": "2019-05",
+            "endDate": "2020-05"
+        },
+        {
+            "title": "Senior Cloud DBA",
+            "company": "Acumen Physician Solutions",
+            "startDate": "2019-05",
+            "endDate": "2018-02"
+        },
+        {
+            "title": "Database Administrator",
+            "company": "Lytho",
+            "startDate": "2017-02",
+            "endDate": "2018-02"
+        }
+    ],
+    "languages": [
+        {
+            "T-SQL": 12,
+            "PLSQL": 8,
+            "PowerShell": 10,
+            "Python": 6,
+            "C#": 8,
+            "JavaScript": 7,
+            "Terraform": 3,
+            "DAX": 2,
+            "JSON": 6
+        }
+    ],
+    "clouds": [
+        {
+            "Microsoft Azure": 7,
+            "Amazon Web Services": 6,
+            "Google Cloud": 2
+        }
+    ],
+    "platforms": [
+        {
+            "Snowflake": 3,
+            "SQL Server": 12,
+            "Oracle": 5,
+            "Postgres": 6,
+            "MySQL": 6,
+            "Azure Data Factory": 4,
+            "SSIS": 9,
+            "AWS Glue": 1
+        }
+    ]
+}
