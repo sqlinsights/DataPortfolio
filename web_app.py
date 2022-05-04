@@ -27,12 +27,28 @@ st.markdown(f'''
         section[data-testid="stSidebar"] .css-1d391kg {{width: 20rem;}}
     </style>
 ''',unsafe_allow_html=True)
-st.title("Carlos D. Serrano")
-st.subheader('Senior Solutions Architect @ Snowflake')
+st.title("Carlos D Serrano")
+st.markdown("""
+###  *Senior Solutions Architect @ Snowflake*
+
+-----""")
+st.subheader('')
 with st.sidebar:
+    st.subheader('Instagram.com/sqlinsights')
     cv1.html(linkedin_embed, height=300, width=600)
     st.json(experience)
 
+
+wp,ln,ig,yt = st.columns(4)
+st.markdown("---")
+with wp:
+    st.image("resources/qr-code-14.png")
+with ln:
+    st.image("resources/qr-code-13.png")
+with ig:
+    st.image("resources/qr-code-11.png")
+with yt:
+    st.image("resources/qr-code-12.png")
 
 
 lang = pd.DataFrame.from_dict(data=languages).transpose()
